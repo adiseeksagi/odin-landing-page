@@ -4,11 +4,77 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .section-1 {
     background-color: #1f2937;
     flex: 1;
+    padding: 0px 150px 0px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#Logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    padding: 64px 0px 100px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-sec {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border: 0px ;
+    border-radius: 8px;
+    border-style: solid;
+    margin-top: 8px;
+}
+.header-text {
+    flex: 1;
+}
+
+.image {
+    background-color: #9a9a9b;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
 }
 
 .section-2 {
@@ -71,6 +137,7 @@ body {
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
+    flex: 1;
 }
 
 .quote-author {
@@ -78,6 +145,7 @@ body {
     font-weight: bold;
     align-self: flex-end;
     font-size: 20px;
+    flex: 1;
 }
 
 .section-4 {
@@ -95,7 +163,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 80px;
 }
 
 .action-call {
