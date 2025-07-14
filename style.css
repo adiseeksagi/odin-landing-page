@@ -129,7 +129,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .quote {
@@ -137,7 +137,7 @@ a {
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
-    flex: 1;
+    min-height: fit-content;
 }
 
 .quote-author {
@@ -152,13 +152,16 @@ a {
     background-color: #ffffff;
     flex: 1;
     padding: 64px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .blue-box {
     background-color: #3882F6;
-    height: 128px;
+    min-height: 128px;
     border-radius: 8px;
-    padding: 4px 100px;
+    padding: 8px 100px;
     margin: 0px;
     display: flex;
     justify-content: space-between;
